@@ -1,0 +1,84 @@
+{
+    "format_version": 1,
+    "assessment": {
+        "name": "",
+        "description": "",
+        "source_vcd": "Counter4_golden.vcd",
+        "timescale": "1 fs"
+    },
+    "signals": {
+        "candidate": [
+            "counter4_tb.uut.clk",
+            "counter4_tb.uut.clr",
+            "counter4_tb.uut.q[3:0]",
+            "counter4_tb.uut.count_reg[3:0]"
+        ],
+        "evaluator": []
+    },
+    "signal_metadata": [
+        {
+            "full_name": "counter4_tb.clk",
+            "name": "clk",
+            "scope": "counter4_tb",
+            "width": 1,
+            "type": "reg",
+            "identifier": "!"
+        },
+        {
+            "full_name": "counter4_tb.clr",
+            "name": "clr",
+            "scope": "counter4_tb",
+            "width": 1,
+            "type": "reg",
+            "identifier": "\""
+        },
+        {
+            "full_name": "counter4_tb.q[3:0]",
+            "name": "q[3:0]",
+            "scope": "counter4_tb",
+            "width": 4,
+            "type": "reg",
+            "identifier": "#"
+        },
+        {
+            "full_name": "counter4_tb.finished",
+            "name": "finished",
+            "scope": "counter4_tb",
+            "width": 1,
+            "type": "reg",
+            "identifier": "$"
+        },
+        {
+            "full_name": "counter4_tb.uut.clk",
+            "name": "clk",
+            "scope": "counter4_tb.uut",
+            "width": 1,
+            "type": "reg",
+            "identifier": "%"
+        },
+        {
+            "full_name": "counter4_tb.uut.clr",
+            "name": "clr",
+            "scope": "counter4_tb.uut",
+            "width": 1,
+            "type": "reg",
+            "identifier": "&"
+        },
+        {
+            "full_name": "counter4_tb.uut.q[3:0]",
+            "name": "q[3:0]",
+            "scope": "counter4_tb.uut",
+            "width": 4,
+            "type": "reg",
+            "identifier": "'"
+        },
+        {
+            "full_name": "counter4_tb.uut.count_reg[3:0]",
+            "name": "count_reg[3:0]",
+            "scope": "counter4_tb.uut",
+            "width": 4,
+            "type": "reg",
+            "identifier": "("
+        }
+    ]
+}
