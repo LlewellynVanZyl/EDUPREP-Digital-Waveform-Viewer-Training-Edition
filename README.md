@@ -27,14 +27,25 @@ The demonstration exercise introduces candidates to:
 - Timing measurements and clock-cycle analysis.
 - Identification of abnormal digital circuit behaviour.
 
+### Signal Configuration File
+
+The package includes a **`VCD_Waveform_Signals.json`** configuration file.
+
+This file contains the signal display configuration used by the EDUPREP Digital Waveform Viewer.
+
+**Important:** The `VCD_Waveform_Signals.json` file must be located in the same folder as the simulation files (`.vcd`) when opening them in the application.
+
+Do not rename or remove this file, as it is required for the intended signal display configuration.
+
 ### Getting Started
 
 1. Download and extract the repository.
-2. Open the `Software` folder.
-3. Run `EDUPREP_Digital_Waveform_Viewer.exe`.
-4. Load the supplied reference simulation data from the `Sample_Data` folder.
-5. Follow the instructions in the Candidate Assessment Brief.
-6. Use the circuit schematic provided in the assessment brief as a reference.
+2. Ensure that VCD_Waveform_Signals.json is in the same folder as the supplied .vcd simulation files.
+3. Open the `Software` folder.
+4. Run `EDUPREP_Digital_Waveform_Viewer.exe`.
+5. Load the supplied reference simulation data from the `Sample_Data` folder.
+6. Follow the instructions in the Candidate Assessment Brief.
+7. Use the circuit schematic provided in the assessment brief as a reference.
 
 ### Welcome to EDUPREP!
 
